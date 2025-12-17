@@ -1,0 +1,42 @@
+# Git Ignore Dosyası - OBS Projesi
+
+# Veritabanı Ayarları (Gizli Bilgiler)
+.env
+config/database.php
+
+# IDE Ayarları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# İşletim Sistemi Dosyaları
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary Dosyaları
+*.tmp
+*.log
+*.lock
+
+# Composer
+vendor/
+composer.lock
+
+# Node (eğer kullanılıyorsa)
+node_modules/
+package-lock.json
+
+# Veritabanı Yedekleri
+*.sql.bak
+*.sql.zip
+
+# Yerel Değişkenler
+.env
+.env.local
+config/.env
